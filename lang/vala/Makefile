@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=vala
-PKG_VERSION:=0.22.1
+PKG_VERSION:=0.35.3
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=@GNOME/vala/0.22/
-PKG_MD5SUM:=5055d3f8f897ad1a77fd38887c85a92c
+PKG_SOURCE_URL:=@GNOME/vala/0.35/
+PKG_MD5SUM:=2d61184a2b483fe82f6f588271cd95575ed039e830a4d80d46774124b2e2b982
 
 PKG_BUILD_DEPENDS:=glib2/host vala/host
 HOST_BUILD_DEPENDS:=glib2/host
@@ -43,7 +43,7 @@ define Build/Compile
 		all install
 endef
 
-VALA_VER := 0.22
+VALA_VER := 0.35.3
 
 define Build/InstallDev
 	$(INSTALL_DIR) \
