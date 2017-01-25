@@ -55,7 +55,7 @@ define Package/librygel-core
   $(call Package/rygel/Default)
   TITLE+= - core library
   DEPENDS:=+libgssdp +libgupnp +libgupnp-av +libgupnp-dlna +libgee +libsoup \
-           +gstreamer +libgstvideo +libgstpbutils
+           +gstreamer1 +libgstvideo +libgstpbutils
 endef
 
 define Package/librygel-core/description
@@ -106,7 +106,7 @@ endef
 define Package/librygel-media-engine-gst
   $(call Package/rygel/Default)
   TITLE+= - GStreamer media engine
-  DEPENDS:=+librygel-core +librygel-server +gstreamer +libgstpbutils +libgstapp
+  DEPENDS:=+librygel-core +librygel-server +gstreamer1 +libgstpbutils +libgstapp
 endef
 
 define Package/librygel-media-engine-gst/descriptino

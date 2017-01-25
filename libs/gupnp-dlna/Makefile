@@ -18,7 +18,7 @@ PKG_SOURCE_URL:=@GNOME/gupnp-dlna/0.10/
 PKG_MD5SUM:=123e368227c11d5c17fc1aa76cbdaffa345355eb51d172cd39fc74a5b468ff6a
 
 PKG_FIXUP:=autoreconf
-HOST_BUILD_DEPENDS:=libgupnp/host gstreamer/host libgstpbutils/host vala/host gobject-introspection/host
+HOST_BUILD_DEPENDS:=libgupnp/host gstreamer1/host libgstpbutils/host vala/host gobject-introspection/host
 PKG_BUILD_DEPENDS:=libgupnp-dlna/host
 
 include $(INCLUDE_DIR)/host-build.mk
@@ -38,7 +38,7 @@ define Package/libgupnp-dlna
   CATEGORY:=Libraries
   TITLE:=Library for dealing with DLNA-related tasks
   URL:=http://www.gupnp.org/
-  DEPENDS:=+libgupnp +gstreamer +libgstpbutils
+  DEPENDS:=+libgupnp +gstreamer1 +libgstpbutils
 endef
 
 define Package/libgupnp-dlna/description
