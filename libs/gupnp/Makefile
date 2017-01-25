@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gupnp
-PKG_VERSION:=0.20.2
+PKG_VERSION:=1.0.1
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=@GNOME/gupnp/0.20/
-PKG_MD5SUM:=1e1dad6ed4b762266ac5bfd5247cdddc
+PKG_SOURCE_URL:=@GNOME/gupnp/1.0/
+PKG_MD5SUM:=934584cc1b361bf251a5ac271ffb1995a3c6426ce44cb64f9c6d779f2af9a6d9
 
 PKG_FIXUP:=autoreconf
 PKG_BUILD_DEPENDS:=libgnutls libgupnp/host
