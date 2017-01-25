@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gupnp-av
-PKG_VERSION:=0.12.1
+PKG_VERSION:=0.12.10
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=@GNOME/gupnp-av/0.12/
-PKG_MD5SUM:=2d15a94d743720febb400b2cacde1cdc
+PKG_MD5SUM:=8038ef84dddbe7ad91c205bf91dddf684f072df8623f39b6555a6bb72837b85a
 
 PKG_FIXUP:=autoreconf
 HOST_BUILD_DEPENDS:=libgupnp/host vala/host gobject-introspection/host
