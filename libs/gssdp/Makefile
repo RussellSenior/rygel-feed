@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gssdp
-PKG_VERSION:=0.14.2
+PKG_VERSION:=1.0.1
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=@GNOME/gssdp/0.14/
-PKG_MD5SUM:=46bbfa2c8f5e035afde70899134e9e86
+PKG_SOURCE_URL:=@GNOME/gssdp/1.0/
+PKG_MD5SUM:=601d67f40bc28c067742b7c46f3018da96b364fd3e83f30ddac6e190e323d2e1
 
 PKG_FIXUP:=autoreconf
 HOST_BUILD_DEPENDS:=libsoup/host glib2/host vala/host gobject-introspection/host
