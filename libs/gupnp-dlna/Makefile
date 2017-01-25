@@ -8,14 +8,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gupnp-dlna
-PKG_VERSION:=0.10.1
+PKG_VERSION:=0.10.5
 PKG_RELEASE:=1
 
 LIB_SUFFIX:=2.0
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=@GNOME/gupnp-dlna/0.10/
-PKG_MD5SUM:=3ce99b8e62f870bbd56e6116e7f82596
+PKG_MD5SUM:=123e368227c11d5c17fc1aa76cbdaffa345355eb51d172cd39fc74a5b468ff6a
 
 PKG_FIXUP:=autoreconf
 HOST_BUILD_DEPENDS:=libgupnp/host gstreamer/host libgstpbutils/host vala/host gobject-introspection/host
